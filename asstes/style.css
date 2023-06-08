@@ -1,0 +1,150 @@
+/*------------------------------
+     Font Family Link
+----------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+/* Font family end */
+
+/*--------------------------
+     body start
+--------------------- */
+body {
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* body end */
+
+/*----------------------------------
+        Header start
+--------------------------------- */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-title {
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 200px;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.nav-name {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+/* Nav end */
+
+/*--------------------------------
+        brand section start
+------------------------------- */
+.brand-new-section {
+    text-align: center;
+}
+
+.brand-new-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-top: 116px;
+    margin-bottom: 16px;
+}
+
+.brand-new-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.explore-btn {
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.brand-new-button {
+    margin-top: 32px;
+}
+
+.brand-new-banner img {
+    width: 75%;
+    height: 75%;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+/*--------------------------------------
+    Quick lists of features start
+------------------------------------- */
+
+.quick-lists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 200px;
+    margin-top: 100px;
+    grid-row-gap: 24px;
+}
+
+.quick-lists div img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.quick-content {
+    padding-top: 100px;
+    padding-right: 100px;
+    position: relative;
+}
+
+.quick-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.of-title {
+    color: #131313;
+}
+
+.features-title {
+    color: #FF900E;
+}
+
+.quick-description {
+    font-weight: 400;
+    font-size: 15px;
+    color: #727272;
+}
