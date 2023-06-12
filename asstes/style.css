@@ -82,6 +82,7 @@ nav ul a {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+    border: none;
 }
 
 .brand-new-button {
@@ -119,7 +120,7 @@ nav ul a {
     padding-right: 100px;
     position: relative;
     margin-bottom: 0px;
-    right: 40px;
+    right: 90px;
 }
 
 .quick-title {
@@ -141,7 +142,7 @@ nav ul a {
 
 .quick-description {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     color: #727272;
     margin-bottom: 0px;
     margin-top: -18px;
@@ -150,3 +151,131 @@ nav ul a {
 /*------------------------------------------------
     Features love and enjoy section start
 --------------------------------------------- */
+.vl-title {
+    border-left: 5px solid coral;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+    padding-left: 15px;
+    margin-top: 0px;
+}
+
+.vl-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 540px;
+    height: 90px;
+    margin-bottom: -15px;
+}
+
+.featurs-love-enjoy {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 130px;
+    grid-row-gap: 20px;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.img-banner img {
+    width: 500px;
+    height: 730px;
+    margin-bottom: -60px;
+}
+
+.feature-content {
+    width: 502px;
+    height: 90px;
+    box-shadow: 1px 1px 10px 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.fetures-small-box {
+    width: 502px;
+    height: 70px;
+    box-shadow: 1px 1px 10px 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.content-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-top: 0px;
+}
+
+.content-description {
+    font-weight: 400;
+    font-size: 15px;
+    color: #727272;
+    margin-top: -15px;
+}
+
+.years-btn {
+    width: 210px;
+    height: 120px;
+    margin-left: -18px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.ten-years span {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* Features love and enjoy section end */
+
+/*--------------------------------
+        some facts start
+------------------------------- */
+.some-fact {
+    margin-left: 175px;
+    margin-top: 130px;
+}
+
+.some-facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 0px;
+}
+
+.some-facts-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* some facts end */
+
+/*----------------------------------
+    achievement section start
+---------------------------------*/
+.achievements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.achievement {
+    width: 133px;
+    height: 120px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
