@@ -474,14 +474,12 @@ nav ul a {
     /* Quick lists of features end */
 
     /* Features love and enjoy section start */
-    .section .features-love-enjoy-section{
-        margin: 0px;
-        padding: 0px;
-    }
     .featurs-love-enjoy {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         align-items: center;
+        margin: 0px;
+        padding: 0px;
     }
 
     .features-contents {
@@ -511,19 +509,74 @@ nav ul a {
         width: 100%;
         height: 100%;
         margin: 0px;
+        padding: 0px;
     }
 
     .fetures-small-box {
         width: 100%;
         height: 100%;
         margin: 0px;
+        padding: 0px;
     }
     .ten-years{
         text-align: center;
     }
-}
+    /* Features love and enjoy section end */
 
+    /* some facts section start */
+    .some-fact{
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+      /* some facts section end */
 
-.hide {
-    display: none;
+      /* achievement section start */
+      .achievements{
+        flex-direction: column;
+        transition: transform 0.001s;
+      }
+      .achievements:hover{
+        transform: rotate(1px);
+      }
+      /* achievement section end */
+
+      /* sponsor section start */
+      .sponsor{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+      }
+
+      .socials-sponsors-items{
+        flex-direction: column;
+      }
+      .sponsor-banner img{
+        width: 75%;
+        height: 75%;
+        padding-left: 5px;
+      }
+      /* sponsor section end */
+
+      /* gaming section start */
+      .gamings-items{
+        flex-direction: column;
+        align-items: center;
+      }
+      /* gaming section end  */
+
+      /* footer start */
+      .footer{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+      }
+      .footer-title{
+        text-align: center;
+      }
+      .footer p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
 }
